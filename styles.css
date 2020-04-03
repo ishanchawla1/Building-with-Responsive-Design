@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Maven Pro', sans-serif;
@@ -7,7 +7,7 @@
 nav ul {
   margin: 0.4em 1em;
   display: flex;
-  background-color: #131313;
+  list-style: none;
 }
 
 .upper-nav {
@@ -21,20 +21,24 @@ nav li {
   font-size: 0.925rem;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: #808080;
 }
 
+.lower-nav a {
+  font-size: 1rem;
+}
+
 nav a:hover {
-  color: #ffffff;
+  color: #fff;
 }
 
 .lower-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   position: sticky;
-  top: 4em;
+  top: -1.80rem;
 }
 
 .lower-nav ul {
@@ -45,17 +49,8 @@ nav a:hover {
   align-items: center;
 }
 
-.lower-nav li {
-  margin: 0 1em 0 0;
-}
-
-.lower-nav a {
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-a img {
-  height: max-content;
+div img {
+  height: 3.2rem;
 }
 
 .lower-nav a:hover {
@@ -64,11 +59,9 @@ a img {
 
 .search-icon {
   border-left: 0.5px solid gray;
-  width: auto;
 }
 
 .default-icon {
-  width: 2em;
   height: 2em;
   margin: 0.5em 0.75em;
 }
@@ -77,4 +70,11 @@ a img {
   background-color: #fcdd33;
   padding: 0.5em 0 0.5em 7em;
   font-size: 0.8rem;
+}
+
+.adjust-flex {
+  display: flex;
+  width: 100%;
+  padding: 0 0 0 1rem;
+  justify-content: space-between;
 }
