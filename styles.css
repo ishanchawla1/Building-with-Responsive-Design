@@ -323,7 +323,7 @@ height: 300px;
 .popularArticles {
   display: grid;
   grid-template-columns: repeat(11,1fr);
-  grid-template-rows: 700px 700px 700px;
+  grid-template-rows: 770px 770px 770px;
   grid-gap: 0.70rem;
 }
 
@@ -346,6 +346,31 @@ section {
   grid-column: 8/11;
 }
 
+.populatArticle4 {
+  grid-row: 2;
+  grid-column: 2/5;
+}
+
+.populatArticle5 {
+  grid-row: 2;
+  grid-column: 5/8;
+}
+
+.populatArticle6 {
+  grid-row: 2;
+  grid-column: 8/11;
+}
+
+.populatArticle7 {
+  grid-row: 3;
+  grid-column: 2/5;
+}
+
+.populatArticle8 {
+  grid-row: 3;
+  grid-column: 5/8;
+}
+
 .redHeading {
   color: #f42;
   font-family: 'Avalon Medium';
@@ -364,6 +389,48 @@ section {
   url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_1d79644c-368x276.png'); 
   width: 100%;
   height: 276px;
+}
+
+.imageGradient2 {
+  background-image:
+  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
+  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/playstation-ps5-dualsense-controller-design-368x276.jpg'); 
+}
+
+.imageGradient3 {
+  background-image:
+  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
+  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/robot_bible-368x276.jpg'); 
+}
+
+.imageGradient4 {
+  background-image:
+  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
+  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule-368x276.jpg'); 
+}
+
+.imageGradient5 {
+  background-image:
+  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
+  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/corona-brands-368x276.jpg'); 
+}
+
+.imageGradient6 {
+  background-image:
+  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
+  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/kayleighmcenany-368x276.jpg'); 
+}
+
+.imageGradient7 {
+  background-image:
+  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
+  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg'); 
+}
+
+.imageGradient8 {
+  background-image:
+  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
+  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Facebook-Gaming-Tournaments-368x276.jpg'); 
 }
 
 .imageText {
