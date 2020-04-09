@@ -140,7 +140,7 @@ div img {
 
 .latestNewsHeading {
   grid-row: 1;
-  grid-column: 3;
+  grid-column: 2/4;
   grid-gap: 10px;
 }
 
@@ -504,7 +504,7 @@ ul {
   list-style: none;
 }
 
-ul li::before {
+.articleLineItems ul li::before {
   content: "\2022";
   color: #f42;
   margin-right: 0.5rem;
@@ -672,4 +672,27 @@ footer {
 
 .colorWhite {
   color: #fff;
+}
+
+.latestFundingHeader {
+  display: flex;
+  justify-content: space-between;
+  grid-row: 1;
+  grid-column: 2/10;
+}
+
+
+
+.subHeader{
+  font-size: 1rem;
+}
+
+span a{
+  margin: 0.5rem;
+  padding-left: 1rem;
+  border-left: #f42 solid 1px;
+}
+
+.latestFundingHeader a:hover{
+  color: #000;
 }
