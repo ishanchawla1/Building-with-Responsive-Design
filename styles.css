@@ -120,7 +120,7 @@ div img {
   color: #fff;
   }
 
-.bottomLeft{
+.bottomLeft {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -149,7 +149,7 @@ div img {
   color: #fff;
 }
 
-.smallLeftMargin{
+.smallLeftMargin {
   margin-left: 5px;
 }
 
@@ -171,10 +171,10 @@ div img {
 .article2 {
   grid-column: 2;
   grid-row: 1;
-  padding: 0 0.5rem 0.5rem 0.5rem;
+  padding: 0 .5rem .5rem .5rem;
   background-size: cover;
-  background-image:
-  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
+  background-image: 
+  linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
   url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg');
   position: relative;
   border-left: 5px solid #fff;
@@ -184,7 +184,7 @@ div img {
 .article3 {
   grid-column: 2;
   grid-row: 2;
-  padding: 0 0.5rem 0.5rem 0.5rem;
+  padding: 0 .5rem .5rem .5rem;
   background-size: cover;
   background-image:
   linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
@@ -544,7 +544,7 @@ section {
 }
 
 .mostPopular {
-  font-size: 0.80rem;
+  font-size: 0.8rem;
   font-weight: 400;
   color: #fff;
 }
@@ -788,6 +788,7 @@ span a{
 }
 
 @media (max-width:768px){
+
   .latestNews {
     grid-template-columns: 10px repeat(6, 1fr) 10px;
     grid-template-rows: 100px 250px 250px 250px;
