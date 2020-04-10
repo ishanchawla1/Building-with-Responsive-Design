@@ -171,9 +171,9 @@ div img {
 .article2 {
   grid-column: 2;
   grid-row: 1;
-  padding: 0 .5rem .5rem .5rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
   background-size: cover;
-  background-image: 
+  background-image:
   linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
   url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg');
   position: relative;
@@ -184,10 +184,10 @@ div img {
 .article3 {
   grid-column: 2;
   grid-row: 2;
-  padding: 0 .5rem .5rem .5rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
   background-size: cover;
   background-image:
-  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
+  linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
   url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/travel-ban-796x417.png');
   position: relative;
   border-left: 5px solid #fff;
@@ -396,7 +396,7 @@ div img {
 }
 
 .aboutCompany {
-  border-bottom: 1px solid rgba(255,68,34,.25);
+  border-bottom: 1px solid rgba(255, 68, 34, 0.25);
 }
 
 .companyInfo {
@@ -418,7 +418,7 @@ div img {
 
 .popularArticles {
   display: grid;
-  grid-template-columns: 20px repeat(9,1fr) 20px;
+  grid-template-columns: 20px repeat(9, 1fr) 20px;
   grid-template-rows: 820px 800px 800px;
   grid-gap: 2rem;
 }
@@ -486,65 +486,65 @@ section {
 .imageGradient {
   position: relative;
   background-image:
-  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
-  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_1d79644c-368x276.png');
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_1d79644c-368x276.png');
   width: 100%;
   height: 276px;
 }
 
 .imageGradient2 {
   background-image:
-  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
-  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/playstation-ps5-dualsense-controller-design-368x276.jpg');
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/playstation-ps5-dualsense-controller-design-368x276.jpg');
 }
 
 .imageGradient3 {
   background-image:
-  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
-  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/robot_bible-368x276.jpg');
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/robot_bible-368x276.jpg');
 }
 
 .imageGradient4 {
   background-image:
-  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
-  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule-368x276.jpg');
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule-368x276.jpg');
 }
 
 .imageGradient5 {
   background-image:
-  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
-  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/corona-brands-368x276.jpg');
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/corona-brands-368x276.jpg');
 }
 
 .imageGradient6 {
   background-image:
-  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
-  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/kayleighmcenany-368x276.jpg');
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/kayleighmcenany-368x276.jpg');
 }
 
 .imageGradient7 {
   background-image:
-  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
-  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg');
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg');
 }
 
 .imageGradient8 {
   background-image:
-  linear-gradient(to bottom, rgba(255,255,255,0.01), rgba(23,22,22,1)),
-  url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Facebook-Gaming-Tournaments-368x276.jpg');
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Facebook-Gaming-Tournaments-368x276.jpg');
 }
 
 .imageText {
-  font-family: "Helvetica Neue"; 
+  font-family: "Helvetica Neue";
   position: absolute;
   bottom: 0;
   left: 0;
-  margin: 0 0 0.75rem 0.75rem;
+  margin: 0 0 .75rem .75rem;
   vertical-align: text-bottom;
 }
 
 .mostPopular {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-weight: 400;
   color: #fff;
 }
@@ -672,8 +672,8 @@ ul {
   height: 100%;
   background-size: cover;
   background-image:
-  linear-gradient(to bottom right, rgba(248, 42, 42, 80) 30%, rgba(0, 0, 0, 0)),
-  url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Hacker-ransomware-bitcoin-796x417.jpg");
+    linear-gradient(to bottom right, rgba(248, 42, 42, 80) 30%, rgba(0, 0, 0, 0)),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Hacker-ransomware-bitcoin-796x417.jpg");
   position: relative;
 }
 
@@ -773,7 +773,7 @@ footer {
   font-size: 1rem;
 }
 
-span a{
+span a {
   margin: 0.5rem;
   padding-left: 1rem;
   border-left: #f42 solid 1px;
@@ -783,11 +783,11 @@ span a{
   display: none;
 }
 
-.latestFundingHeader a:hover{
+.latestFundingHeader a:hover {
   color: #000;
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
   .latestNews {
     grid-template-columns: 10px repeat(6, 1fr) 10px;
