@@ -15,7 +15,7 @@ nav {
   z-index: 3;
 }
 
-ul{
+ul {
   margin: 0;
   list-style: none;
 }
@@ -40,13 +40,13 @@ nav ul,
 }
 
 nav li,
-.upper-nav li{
+.upper-nav li {
   margin-right: 0.75em;
   font-size: 0.925rem;
 }
 
 nav a,
-.upper-nav a{
+.upper-nav a {
   text-decoration: none;
   color: #808080;
   overflow: auto;
@@ -790,7 +790,7 @@ footer {
   color: #000;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .latestNews {
     grid-template-columns: 10px repeat(6, 1fr) 10px;
     grid-template-rows: 100px 250px 250px 250px;
@@ -900,7 +900,6 @@ footer {
     grid-row: 3;
     grid-column: 8/11;
   }
-
 }
 
 @media (max-width: 480px) {
