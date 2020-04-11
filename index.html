@@ -9,7 +9,7 @@
     <title>TNW</title>
 </head>
 <body>
-    <div class="upper-nav">
+    <div class="upper-nav navSwitch">
         <ul>
             <li><a href="#">News</a></li>
             <li><a href="#">TNW2020</a></li>
@@ -29,7 +29,7 @@
         <div class="lower-nav">
             <img src="images/tnw_logo.png"/>
             <div class="adjust-flex">
-            <ul>
+            <ul class="navSwitch">
                 <li><a href="#">LATEST</a></li>
                 <li><a href="#">HARD FORK</a></li>
                 <li><a href="#">PLUNGED</a></li>
@@ -115,67 +115,83 @@
             <div class="latestNewsHeading redHeading">Latest news ></div>
             <article class="newsArticle1">
                 <a href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Pixel-4-Camera-1-of-1-516x270.jpg" class="article1Image"></a>
+                <div class="adjustMargin">
                 <a href="#" class="noTextDecoration ">
                     <b class="textLatestNews">The Pixel 4 can now require your eyes to be open for face unlock to work </b>
                     <br/>
                 </a>
                 <a href="#" class="noTextDecoration authorName"> Napier Lopez </a> <span class ="timeAgo">4 hours ago</span>
+                </div>
             </article>
             <article class="newsArticle2">
                 <a href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/MSI-Creator-17-515x270.jpg" class="article1Image"></a>
+                <div class="adjustMargin">
                 <a href="#" class="noTextDecoration ">
                     <b class="textLatestNews">MSI’s new premium laptop beat Apple to Mini LED displays </b>
                     <br/>
                 </a>
                 <a href="#" class="noTextDecoration authorName"> Napier Lopez</a> <span class ="timeAgo">4 hours ago</span>
+                </div>
             </article>
             <article class="newsArticle3">
                 <a href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design52-516x270.png" class="article1Image"></a>
+                <div class="adjustMargin">
                 <a href="#" class="noTextDecoration ">
                     <b class="textLatestNews">MIT researchers use AI to turn the coronavirus into a haunting melody </b>
                     <br/>
                 </a>
                 <a href="#" class="noTextDecoration authorName"> Thomas Macaulay</a> <span class ="timeAgo">2 hours ago</span>
+                </div>
             </article>
             <article class="newsArticle4">
                 <a href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/DDMusiclearning-516x270.jpg" class="article1Image"></a>
+                <div class="adjustMargin">
                 <a href="#" class="noTextDecoration ">
                     <b class="textLatestNews"> Daily Distraction: Learn to play an instrument during lockdown </b>
                     <br/>
                 </a>
                 <a href="#" class="noTextDecoration authorName"> Ivan Mehta</a> <span class ="timeAgo">5 hours ago</span>
+                </div>
             </article>
             <article class="newsArticle5">
                 <a href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Copy-of-...-1-516x270.png" class="article1Image"></a>
+                <div class="adjustMargin">
                 <a href="#" class="noTextDecoration ">
                     <b class="textLatestNews">Coronavirus is growing exponentially — here’s what the numbers mean </b>
                     <br/>
                 </a>
                 <a href="#" class="noTextDecoration authorName"> The Conversation </a> <span class ="timeAgo">6 hours ago</span>
+                </div>
             </article>
             <article class="newsArticle6">
                 <a href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design51-516x270.png" class="article1Image"></a>
+                <div class="adjustMargin">
                 <a href="#" class="noTextDecoration ">
                     <b class="textLatestNews">AI reveals that mice's faces express a range of emotions -- just like humans </b>
                     <br/>
                 </a>
                 <a href="#" class="noTextDecoration authorName"> Thomas Macaulay </a> <span class ="timeAgo">4 hours ago</span>
+                </div>
             </article>
             <article class="newsArticle7">
                 <a href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Getty-Photo-Challenge-516x270.jpg" class="article1Image"></a>
+                <div class="adjustMargin">
                 <a href="#" class="noTextDecoration ">
                     <b class="textLatestNews">Life imitating art: Quarantined people remix famous paintings with household items  </b>
                     <br/>
                 </a>
                 <a href="#" class="noTextDecoration authorName"> Ivan Mehta </a> <span class ="timeAgo">8 hours ago</span>
+                </div>
             </article>
             <article class="newsArticle8">
                 <a href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/zoombombing-513x270.png" class="article1Image"></a>
+                <div class="adjustMargin">
                 <a href="#" class="noTextDecoration ">
                     <b class="textLatestNews">NYC classrooms cancel Zoom after trolls make 'Zoombombing' a thing  </b>
                     <br/>
                 </a>
                 <a href="#" class="noTextDecoration authorName"> TNW Deals </a> <span class ="timeAgo">7 hours ago</span>
+                </div>
             </article>
         </section>
         <section class="latestFunding">
@@ -690,7 +706,7 @@
         </section>
         <section class="latestDeals">
             <div class="sectionTitle">
-                <a href="#" class="redHeading noTextDecoration">
+                <a href="#" class="redHeading noTextDecoration latestDealHeader">
                     Latest Deals >
                 </a>
                 <a href="#" class="redHeading noTextDecoration seeAll">
@@ -704,12 +720,15 @@
                         <div class="alignCenter">90% OFF</div>
                     </div>
                 </a>
+                <div>
                 <div class="latestDealText">
                     <a class="noTextDecoration">
                         AWS Cloud Essentials Course
                     </a>
                 </div>
+                <br class="switch">
                 <span class="greyScale"> <strike> $200 </strike></span>$19.99 
+                </div>
             </article>
             <article class="latestDealArticle2">
                 <a href="#" class="setWidth">
@@ -717,13 +736,15 @@
                     <div class="latestDealImage">
                         <div class="alignCenter">100% OFF</div>
                     </div>
-                </a>
+                <div></a>
                 <div class="latestDealText">
                     <a class="noTextDecoration">
                         Learn How to Draw Freebie Bundle
                     </a>
                 </div>
+                <br class="switch">
                 <span class="greyScale"> <strike> $0 </strike></span>$0
+                </div>
             </article>
             <article class="latestDealArticle3">
                 <a href="#" class="setWidth">
@@ -731,13 +752,15 @@
                     <div class="latestDealImage">
                         <div class="alignCenter">98% OFF</div>
                     </div>
-                </a>
+                <div></a>
                 <div class="latestDealText">
                     <a class="noTextDecoration">
                         The Adobe Lightroom & Photoshop for Beginner-Designers Bundle
                     </a>
                 </div>
+                <br class="switch">
                 <span class="greyScale"> <strike> $1791 </strike></span>$39.99 
+                </div>
             </article>
             <article class="latestDealArticle4">
                 <a href="#" class="setWidth">
@@ -745,13 +768,15 @@
                     <div class="latestDealImage">
                         <div class="alignCenter">67% OFF</div>
                     </div>
-                </a>
+                <div></a>
                 <div class="latestDealText">
                     <a class="noTextDecoration">
                         Canva Pro: 3-Month Subscription
                     </a>
                 </div>
+                <br class="switch">
                 <span class="greyScale"> <strike> $38.85 </strike></span>$12.99 
+                </div>
             </article>
             <article class="latestDealArticle5">
                 <a href="#" class="setWidth">
@@ -759,13 +784,14 @@
                     <div class="latestDealImage">
                         <div class="alignCenter">60% OFF</div>
                     </div>
-                </a>
+                <div></a>
                 <div class="latestDealText">
                     <a class="noTextDecoration">
                         Babbel Language Learning: Lifetime Subscription (All Languages)
                     </a>
                 </div>
                 <span class="greyScale"> <strike> $399 </strike></span>$159
+                </div> 
             </article>
             <article class="latestDealArticle6">
                 <a href="#" class="setWidth">
@@ -773,13 +799,15 @@
                     <div class="latestDealImage">
                         <div class="alignCenter">98% OFF</div>
                     </div>
-                </a>
+                <div></a>
                 <div class="latestDealText">
                     <a class="noTextDecoration">
                         The Complete 2020 Microsoft Azure Certification Prep Bundle
                     </a>
                 </div>
+                <br class="switch">
                 <span class="greyScale"> <strike> $1839.99 </strike></span>$39
+                </div>
             </article>
             <article class="latestDealArticle7">
                 <a href="#" class="setWidth">
@@ -787,13 +815,15 @@
                     <div class="latestDealImage">
                         <div class="alignCenter">96% OFF</div>
                     </div>
-                </a>
+                <div></a>
                 <div class="latestDealText">
                     <a class="noTextDecoration">
                         StackSkills Unlimited: Lifetime Access
                     </a>
                 </div>
+                <br class="switch">
                 <span class="greyScale"> <strike> $1495 </strike></span>$59
+                </div>
             </article>
             <article class="latestDealArticle8">
                 <a href="#" class="setWidth">
@@ -801,13 +831,15 @@
                     <div class="latestDealImage">
                         <div class="alignCenter">98% OFF</div>
                     </div>
-                </a>
+                <div></a>
                 <div class="latestDealText">
                     <a class="noTextDecoration">
                         The All-in-One Adobe Creative Cloud Suite Certification Bundle
                     </a>
                 </div>
+                <br class="switch">
                 <span class="greyScale"> <strike> $1600 </strike></span>$34
+                </div>
             </article>
         </section>
     </main>
