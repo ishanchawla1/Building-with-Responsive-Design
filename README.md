@@ -2,7 +2,14 @@
 
 > This project consists of building an HTML document that matches the appearance of [The-next-web](https://thenextweb.com/) magazine website. 
 
-![screenshot](./app_screenshot.png)
+Desktop View
+![screenshot](./app_screenshot.jpg)
+
+Tablet View
+![screenshot](./app_screenshot_tablet.jpg)
+
+Mobile View
+![screenshot](./app_screenshot_mobile.jpg)
 
 Additional description about the project and its features.
 
@@ -14,16 +21,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+[Live Demo Link](https://raw.githack.com/ishanchawla1/Building-with-Responsive-Design/feature/TNW_Home_Page/index.html)
 
 ## Authors
 
@@ -37,7 +35,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/ishanchawla1/Building-with-Responsive-Design/issues).
 
 ## Show your support
 
