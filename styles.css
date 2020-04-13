@@ -20,7 +20,7 @@ ul {
   list-style: none;
 }
 
-span a {
+.latestFundingHeader div span a {
   margin: 0.5rem;
   padding-left: 1rem;
   border-left: #f42 solid 1px;
@@ -246,14 +246,14 @@ div img {
 .latestNews {
   margin-top: 80px;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: 100px repeat(8, 1fr) 100px;
   grid-template-rows: 100px 250px 250px;
   grid-gap: 10px;
 }
 
 .latestNewsHeading {
   grid-row: 1;
-  grid-column: 2/4;
+  grid-column: 2/-1;
 }
 
 .textLatestNews {
@@ -281,6 +281,14 @@ div img {
 
 .authorNamePopularArticle:hover {
   color: #fff;
+}
+
+.setFontSize {
+  font-size: 1.5rem;
+}
+
+.strike {
+  text-decoration: line-through  
 }
 
 .company1,
@@ -341,8 +349,8 @@ div img {
 
 .latestFunding {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 100px 250px;
+  grid-template-columns: 100px repeat(8, 1fr) 100px;
+  grid-template-rows: 50px 250px;
   grid-gap: 1rem;
 }
 
@@ -432,9 +440,9 @@ div img {
 
 .popularArticles {
   display: grid;
-  grid-template-columns: 20px repeat(9, 1fr) 20px;
-  grid-template-rows: 820px 800px 800px;
-  grid-gap: 2rem;
+  grid-template-columns: 100px repeat(9, 1fr) 100px;
+  grid-template-rows: 750px 750x 750px;
+  grid-gap: 20px;
 }
 
 section {
@@ -456,31 +464,26 @@ section {
   grid-column: 8/11;
 }
 
-.latestDealArticle1,
 .populatArticle4 {
   grid-row: 2;
   grid-column: 2/5;
 }
 
-.latestDealArticle2,
 .populatArticle5 {
   grid-row: 2;
   grid-column: 5/8;
 }
 
-.latestDealArticle3,
 .populatArticle6 {
   grid-row: 2;
   grid-column: 8/11;
 }
 
-.latestDealArticle5,
 .populatArticle7 {
   grid-row: 3;
   grid-column: 2/5;
 }
 
-.latestDealArticle6,
 .populatArticle8 {
   grid-row: 3;
   grid-column: 5/8;
@@ -489,12 +492,22 @@ section {
 .redHeading {
   color: #f42;
   font-family: 'Avalon Medium', Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
 .popularArticleImage {
   width: 100%;
+}
+
+.setLogoSize {
+  width: 40px;
+  height: 15px;
+}
+
+.setLogoSize1 {
+  width: 60px;
+  height: 10px;
 }
 
 .imageGradient {
@@ -633,14 +646,14 @@ section {
 
 .latestDeals {
   display: grid;
-  grid-template-columns: repeat(14, 1fr);
+  grid-template-columns: 100px repeat(8, 1fr) 100px;
   grid-template-rows: 60px 300px 300px;
   grid-gap: 2rem;
 }
 
 .sectionTitle {
   grid-row: 1;
-  grid-column: 2/14;
+  grid-column: 2/10;
   display: flex;
   justify-content: space-between;
 }
@@ -652,19 +665,44 @@ section {
   padding: 0;
 }
 
+.latestDealArticle1 {
+  grid-row: 2;
+  grid-column: 2/4;
+}
+
+.latestDealArticle2 {
+  grid-row: 2;
+  grid-column: 4/6;
+}
+
+.latestDealArticle3 {
+  grid-row: 2;
+  grid-column: 6/8;
+}
+
 .latestDealArticle4 {
   grid-row: 2;
-  grid-column: 11/14;
+  grid-column: 8/10;
+}
+
+.latestDealArticle5 {
+  grid-row: 3;
+  grid-column: 2/4;
+}
+
+.latestDealArticle6 {
+  grid-row: 3;
+  grid-column: 4/6;
 }
 
 .latestDealArticle7 {
   grid-row: 3;
-  grid-column: 8/11;
+  grid-column: 6/8;
 }
 
 .latestDealArticle8 {
   grid-row: 3;
-  grid-column: 11/14;
+  grid-column: 8/10;
 }
 
 .latestDealImage {
@@ -689,6 +727,7 @@ section {
 .posAbsolute {
   position: relative;
   width: 100%;
+  height: 100%;
   display: block;
 }
 
@@ -750,14 +789,14 @@ footer {
   justify-content: center;
   color: #6b6b6b;
   display: flex;
-  padding: 0 0 30px 0;
+  padding: 20px 10px;
 }
 
 .importantLinks p {
   padding: 15px;
 }
 
-.importantLinks p:hover {
+.importantLinks a:hover {
   color: #fff;
 }
 
@@ -790,7 +829,7 @@ footer {
   color: #000;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .latestNews {
     grid-template-columns: 10px repeat(6, 1fr) 10px;
     grid-template-rows: 100px 250px 250px 250px;
@@ -902,7 +941,7 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .logo,
   .date,
   .lower-nav ul,
@@ -1027,7 +1066,7 @@ footer {
 
   .latestNewsHeading {
     grid-row: 1;
-    grid-column: 1;
+    grid-column: 1/-1;
   }
 
   .article1Image {
