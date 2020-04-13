@@ -97,6 +97,10 @@ div img {
   margin: 0.5em 0.75em;
 }
 
+.menu-icon {
+  display: none;
+}
+
 .bottom-nav {
   background-color: #fcdd33;
   padding: 0.5em 0 0.5em 7em;
@@ -835,6 +839,7 @@ footer {
     grid-template-rows: 100px 250px 250px 250px;
   }
 
+  .logo,
   .company4 {
     display: none;
   }
@@ -1269,5 +1274,10 @@ footer {
 
   .iconBackground {
     margin: 8px;
+  }
+
+  .menu-icon {
+    display: initial;
+    border-left: 0.5px solid gray;
   }
 }
