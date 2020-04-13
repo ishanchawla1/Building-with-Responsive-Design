@@ -1021,6 +1021,10 @@ footer {
     flex-direction: row;
   }
 
+  .strike {
+    text-decoration: line-through;
+  }
+
   .latestNewsHeading {
     grid-row: 1;
     grid-column: 1;

@@ -1,6 +1,6 @@
-# Project Name
+# The Next Web
 
-> One paragraph statement about the project.
+> This project consists of building an HTML document that matches the appearance of [The-next-web](https://thenextweb.com/) magazine website. 
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,9 +8,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML and CSS
+- Grid and Flex
+- Media Queries
 
 ## Live Demo
 
@@ -25,33 +25,13 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
-👤 **Author1**
+👤Ishan Chawla
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/ishanchawla1)
+- Twitter: [@twitterhandle](https://twitter.com/Ishanchawla1884)
+- Linkedin: [linkedin](https://www.linkedin.com/in/ishan-chawla-232988b5/)
 
 ## 🤝 Contributing
 
