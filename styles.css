@@ -291,6 +291,10 @@ div img {
   font-size: 1.5rem;
 }
 
+.menu-icon {
+  display: none;
+}
+
 .strike {
   text-decoration: line-through;
 }
