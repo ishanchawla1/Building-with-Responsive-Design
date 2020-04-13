@@ -20,12 +20,6 @@ ul {
   list-style: none;
 }
 
-.latestFundingHeader div span a {
-  margin: 0.5rem;
-  padding-left: 1rem;
-  border-left: #f42 solid 1px;
-}
-
 nav ul,
 .upper-nav ul {
   margin: 0.4em 1em;
@@ -114,6 +108,12 @@ div img {
   display: grid;
   grid-template-columns: 60% 40%;
   grid-template-rows: 300px 300px;
+}
+
+.latestFundingHeader div span a {
+  margin: 0.5rem;
+  padding-left: 1rem;
+  border-left: #f42 solid 1px;
 }
 
 .article1 {
@@ -441,8 +441,9 @@ div img {
 .popularArticles {
   display: grid;
   grid-template-columns: 100px repeat(9, 1fr) 100px;
-  grid-template-rows: 750px 750x 750px;
+  grid-template-rows: 750px 750px 750px;
   grid-gap: 20px;
+
 }
 
 section {
