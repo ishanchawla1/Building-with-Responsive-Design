@@ -1318,7 +1318,7 @@ footer {
   }
 
   .iconBackground {
-    margin: 20px;
+    margin: 10px;
     width: 30px;
     height: 30px;
   }
@@ -1333,7 +1333,4 @@ footer {
     max-width: 220px;
   }
 
-  .iconBackground {
-    margin: 10px;
-  }
 }
