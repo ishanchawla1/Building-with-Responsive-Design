@@ -1274,14 +1274,14 @@ footer {
     display: flex;
   }
 
+  .latestDealImage {
+    display: none;
+  }
+
   .posAbsolute {
     width: 120px;
     height: 120px;
     background: cover;
-    margin: 20px;
-  }
-
-  .latestDealImage {
     margin: 20px;
   }
 
@@ -1309,6 +1309,7 @@ footer {
 
 @media (max-width: 420px) {
   .footerSecond {
+    margin: auto;
     padding: 20px;
   }
 
