@@ -242,7 +242,7 @@ div img {
 }
 
 .latestNews {
-  max-width: 1096px;
+  max-width: 1280px;
   margin: 80px auto 0 auto;
   display: grid;
   grid-template-columns: 100px repeat(8, 1fr) 100px;
@@ -347,7 +347,7 @@ div img {
 }
 
 .latestFunding {
-  max-width: 1096px;
+  max-width: 1280px;
   margin: 80px auto 0 auto;
   display: grid;
   grid-template-columns: 100px repeat(8, 1fr) 100px;
@@ -440,7 +440,7 @@ div img {
 }
 
 .popularArticles {
-  max-width: 1096px;
+  max-width: 1280px;
   margin: 80px auto 0 auto;
   display: grid;
   grid-template-columns: 100px repeat(9, 1fr) 100px;
@@ -520,7 +520,7 @@ section {
     url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_1d79644c-368x276.png');
   width: 100%;
   height: 276px;
-  object-fit: contain;
+  background-size: cover;
 }
 
 .imageGradient2 {
@@ -607,6 +607,7 @@ section {
   font-size: 0.92rem;
   font-weight: 400;
   background-color: #fff4f2;
+  justify-content: space-between;
 }
 
 .fontSizeAndWeight {
@@ -656,7 +657,7 @@ section {
 }
 
 .latestDeals {
-  max-width: 1096px;
+  max-width: 1280px;
   margin: 80px auto 0 auto;
   display: grid;
   grid-template-columns: 100px repeat(8, 1fr) 100px;
@@ -949,8 +950,8 @@ footer {
   }
 
   .latestDeals {
-    grid-template-columns: 20px repeat(9, 1fr) 10px;
-    grid-template-rows: 60px 300px 300px 300px;
+    grid-template-columns: 20px repeat(9, 1fr) 20px;
+    grid-template-rows: 60px 350px 350px 350px;
     grid-gap: 10px;
   }
 
@@ -962,6 +963,12 @@ footer {
   .latestDealArticle6 {
     grid-row: 3;
     grid-column: 8/11;
+  }
+
+  .addRedGradient {
+    background-image:
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Hacker-ransomware-bitcoin-796x417.jpg");
   }
 }
 
@@ -993,12 +1000,6 @@ footer {
     border-left: 5px solid #fff;
     border-right: 5px solid #fff;
     padding: 0;
-  }
-
-  .addRedGradient {
-    background-image:
-      linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
-      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Hacker-ransomware-bitcoin-796x417.jpg");
   }
 
   .bottomGrid {
@@ -1301,13 +1302,14 @@ footer {
     display: inline-block;
   }
 
+}
+
+@media (max-width: 420px) {
   .menu-icon {
     display: initial;
     border-left: 0.5px solid gray;
   }
-}
-
-@media (max-width: 420px) {
+  
   .footerSecond {
     margin: auto;
     padding: 20px;
