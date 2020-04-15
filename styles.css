@@ -1301,7 +1301,6 @@ footer {
   .show {
     display: inline-block;
   }
-
 }
 
 @media (max-width: 420px) {
@@ -1309,7 +1308,7 @@ footer {
     display: initial;
     border-left: 0.5px solid gray;
   }
-  
+
   .footerSecond {
     margin: auto;
     padding: 20px;
