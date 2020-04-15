@@ -754,7 +754,7 @@ section {
 }
 
 .latestDealText {
-  margin: 10px 0 0 0;
+  margin: 20px 0 0 0;
   font-size: 1.143rem;
   font-weight: 700;
 }
@@ -1025,7 +1025,7 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 40px repeat(8, 120px);
     grid-gap: 0;
-    margin: 10px;
+    margin: 20px;
   }
 
   .newsArticle1 {
@@ -1120,7 +1120,7 @@ footer {
   .latestFundingHeader {
     grid-row: 1;
     grid-column: 1;
-    margin: 10px;
+    margin: 20px;
   }
 
   .latestFundingHeader div a {
@@ -1159,7 +1159,7 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 700px);
     grid-gap: 1rem;
-    margin: 0 10px;
+    margin: 0 20px;
   }
 
   .populatArticle1 {
@@ -1207,7 +1207,7 @@ footer {
     grid-column: 1;
     display: inline-flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 20px;
   }
 
   .seeAll {
@@ -1217,7 +1217,7 @@ footer {
 
   .latestDeals {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: 40px repeat(7, 1fr);
     grid-gap: 2rem;
   }
 
@@ -1278,11 +1278,11 @@ footer {
     width: 120px;
     height: 120px;
     background: cover;
-    margin: 10px;
+    margin: 20px;
   }
 
   .latestDealImage {
-    margin: 10px;
+    margin: 20px;
   }
 
   .switch {
@@ -1309,8 +1309,7 @@ footer {
 
 @media (max-width: 420px) {
   .footerSecond {
-    max-width: 300px;
-    margin: auto;
+    padding: 20px;
   }
 
   .lowerFooter {
@@ -1319,7 +1318,7 @@ footer {
   }
 
   .iconBackground {
-    margin: 10px;
+    margin: 20px;
     width: 30px;
     height: 30px;
   }
@@ -1328,5 +1327,13 @@ footer {
     width: 25px;
     height: 25px;
     padding: 3px 0 0 3px;
+  }
+
+  .latestDealText {
+    max-width: 220px;
+  }
+
+  .iconBackground {
+    margin: 10px;
   }
 }
