@@ -234,13 +234,6 @@ div img {
   color: #fff;
 }
 
-.topLeft {
-  display: grid;
-  position: absolute;
-  top: 25px;
-  left: 25px;
-}
-
 .logo {
   position: absolute;
   height: 130px;
@@ -249,7 +242,8 @@ div img {
 }
 
 .latestNews {
-  margin-top: 80px;
+  max-width: 1096px;
+  margin: 80px auto 0 auto;
   display: grid;
   grid-template-columns: 100px repeat(8, 1fr) 100px;
   grid-template-rows: 100px 250px 250px;
@@ -353,6 +347,8 @@ div img {
 }
 
 .latestFunding {
+  max-width: 1096px;
+  margin: 80px auto 0 auto;
   display: grid;
   grid-template-columns: 100px repeat(8, 1fr) 100px;
   grid-template-rows: 50px 250px;
@@ -444,9 +440,11 @@ div img {
 }
 
 .popularArticles {
+  max-width: 1096px;
+  margin: 80px auto 0 auto;
   display: grid;
   grid-template-columns: 100px repeat(9, 1fr) 100px;
-  grid-template-rows: 750px 750px 750px;
+  grid-template-rows: 780px 780px 780px;
   grid-gap: 20px;
 }
 
@@ -658,6 +656,8 @@ section {
 }
 
 .latestDeals {
+  max-width: 1096px;
+  margin: 80px auto 0 auto;
   display: grid;
   grid-template-columns: 100px repeat(8, 1fr) 100px;
   grid-template-rows: 60px 300px 300px;
