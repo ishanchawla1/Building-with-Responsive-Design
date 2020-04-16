@@ -1,0 +1,1337 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.noTextDecoration {
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+nav ul,
+.upper-nav ul {
+  margin: 0.4em 1em;
+  display: flex;
+  list-style: none;
+}
+
+.upper-nav {
+  background-color: #131313;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li,
+.upper-nav li {
+  margin-right: 0.75em;
+  font-size: 0.925rem;
+}
+
+nav a,
+.upper-nav a {
+  text-decoration: none;
+  color: #808080;
+  overflow: auto;
+}
+
+.lower-nav a {
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  overflow: auto;
+}
+
+.lower-nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: start;
+}
+
+.lower-nav ul {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  list-style: none;
+  align-items: center;
+}
+
+div img {
+  height: 3.2rem;
+}
+
+.latestFundingHeader div span a {
+  margin: 0.5rem;
+  padding-left: 1rem;
+  border-left: #f42 solid 1px;
+}
+
+.lower-nav a:hover {
+  color: #131313;
+}
+
+.search-icon {
+  border-left: 0.5px solid gray;
+}
+
+.default-icon {
+  height: 2em;
+  margin: 0.5em 0.75em;
+}
+
+.show,
+.menu-icon {
+  display: none;
+}
+
+.bottom-nav {
+  background-color: #fcdd33;
+  padding: 0.5em 0 0.5em 7em;
+  font-size: 0.8rem;
+}
+
+.adjust-flex {
+  display: flex;
+  width: 100%;
+  padding: 0 0 0 1rem;
+  justify-content: space-between;
+}
+
+.addGrid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 300px 300px;
+}
+
+.article1 {
+  grid-column: 1;
+  grid-row: 1/3;
+  height: 100%;
+  padding: 0 0 0.5rem 0.5rem;
+}
+
+.bottomGrid {
+  position: relative;
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 2;
+  color: #fff;
+}
+
+.bottomLeft {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0 0 1rem 1rem;
+}
+
+.descriptionText {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.author {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.date {
+  position: absolute;
+  text-align: end;
+  z-index: 2;
+  margin: 10px;
+  width: 58%;
+}
+
+.author a:hover {
+  color: #fff;
+}
+
+.smallLeftMargin {
+  margin-left: 5px;
+}
+
+.headerIcons {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 10px;
+}
+
+.smallMarginLeft {
+  margin-left: 10px;
+}
+
+.noStyle {
+  padding: none;
+  margin: none;
+}
+
+.article2 {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  background-size: cover;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg');
+  position: relative;
+  border-left: 5px solid #fff;
+  border-right: 5px solid #fff;
+}
+
+.article3 {
+  grid-column: 2;
+  grid-row: 2;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  background-size: cover;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/travel-ban-796x417.png');
+  position: relative;
+  border-left: 5px solid #fff;
+  border-right: 5px solid #fff;
+  border-top: 5px solid #fff;
+}
+
+.setHeight {
+  position: relative;
+  display: block;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.setWidth {
+  position: relative;
+  display: block;
+  object-fit: cover;
+  border: 45px 35px 25px 15px solid black;
+  z-index: 1;
+}
+
+.whiteText {
+  z-index: 2;
+  position: absolute;
+  color: #fff;
+}
+
+.logo {
+  position: absolute;
+  height: 130px;
+  margin: 1.5rem 0.5rem;
+  z-index: 2;
+}
+
+.latestNews {
+  max-width: 1280px;
+  margin: 80px auto 0 auto;
+  display: grid;
+  grid-template-columns: 100px repeat(8, 1fr) 100px;
+  grid-template-rows: 100px 250px 250px;
+  grid-gap: 10px;
+}
+
+.latestNewsHeading {
+  grid-row: 1;
+  grid-column: 2/-1;
+}
+
+.textLatestNews {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #131313;
+}
+
+.textLatestNews:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.timeAgo,
+.authorNamePopularArticle,
+.authorName {
+  color: #888;
+  font-weight: 400;
+  font-size: 0.929rem;
+}
+
+.authorName:hover {
+  color: #555;
+}
+
+.authorNamePopularArticle:hover {
+  color: #fff;
+}
+
+.setFontSize {
+  font-size: 1.5rem;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.company1,
+.newsArticle1 {
+  grid-row: 2;
+  grid-column: 2/4;
+}
+
+.company2,
+.newsArticle2 {
+  grid-row: 2;
+  grid-column: 4/6;
+}
+
+.company3,
+.newsArticle3 {
+  grid-row: 2;
+  grid-column: 6/8;
+}
+
+.company4,
+.newsArticle4 {
+  grid-row: 2;
+  grid-column: 8/10;
+}
+
+.newsArticle5 {
+  grid-row: 3;
+  grid-column: 2/4;
+}
+
+.newsArticle6 {
+  grid-row: 3;
+  grid-column: 4/6;
+}
+
+.newsArticle7 {
+  grid-row: 3;
+  grid-column: 6/8;
+}
+
+.newsArticle8 {
+  grid-row: 3;
+  grid-column: 8/10;
+}
+
+.adjustMargin {
+  padding: 0;
+}
+
+.article1Image {
+  width: 100%;
+}
+
+.smallPaddingBottom {
+  padding-bottom: 5px;
+}
+
+.latestFunding {
+  max-width: 1280px;
+  margin: 80px auto 0 auto;
+  display: grid;
+  grid-template-columns: 100px repeat(8, 1fr) 100px;
+  grid-template-rows: 50px 250px;
+  grid-gap: 1rem;
+}
+
+.company1 {
+  grid-row: 2;
+  grid-column: 2/4;
+}
+
+.fundedCompaniesFont {
+  background-color: #f42;
+  height: max-content;
+  padding: 0.5rem 0 0.5rem 5rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.fundingAmount {
+  color: #000;
+  background-color: #ffebe7;
+  padding: 0.5rem 0 0.5rem 5rem;
+}
+
+.companyLogo {
+  position: absolute;
+  padding: 0.75rem;
+}
+
+.amt {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.fundingType {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #000;
+  opacity: 0.5;
+}
+
+.icon {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  padding: 1em 0.5em 0.5em 1.5em;
+}
+
+.informationLineItem {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: 400;
+  color: #555;
+  background-color: #fffaf8;
+}
+
+.informationLineItem:hover {
+  color: #000;
+}
+
+.textAlignCenter {
+  padding: 0.5em;
+}
+
+.aboutCompany {
+  border-bottom: 1px solid rgba(255, 68, 34, 0.25);
+}
+
+.companyInfo {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.company {
+  background-color: #fffaf8;
+  padding: 0.75em;
+  min-height: 4em;
+}
+
+.greyScale {
+  color: #ccc;
+}
+
+.popularArticles {
+  max-width: 1280px;
+  margin: 80px auto 0 auto;
+  display: grid;
+  grid-template-columns: 100px repeat(9, 1fr) 100px;
+  grid-template-rows: 780px 780px 780px;
+  grid-gap: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.populatArticle1 {
+  grid-row: 1;
+  grid-column: 2/5;
+}
+
+.populatArticle2 {
+  grid-row: 1;
+  grid-column: 5/8;
+}
+
+.populatArticle3 {
+  grid-row: 1;
+  grid-column: 8/11;
+}
+
+.populatArticle4 {
+  grid-row: 2;
+  grid-column: 2/5;
+}
+
+.populatArticle5 {
+  grid-row: 2;
+  grid-column: 5/8;
+}
+
+.populatArticle6 {
+  grid-row: 2;
+  grid-column: 8/11;
+}
+
+.populatArticle7 {
+  grid-row: 3;
+  grid-column: 2/5;
+}
+
+.populatArticle8 {
+  grid-row: 3;
+  grid-column: 5/8;
+}
+
+.redHeading {
+  color: #f42;
+  font-family: 'Avalon Medium', Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.popularArticleImage {
+  width: 100%;
+}
+
+.setLogoSize {
+  width: 40px;
+  height: 15px;
+}
+
+.setLogoSize1 {
+  width: 60px;
+  height: 10px;
+}
+
+.imageGradient {
+  position: relative;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_1d79644c-368x276.png');
+  width: 100%;
+  height: 276px;
+  background-size: cover;
+}
+
+.imageGradient2 {
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/playstation-ps5-dualsense-controller-design-368x276.jpg');
+  object-fit: contain;
+}
+
+.imageGradient3 {
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/robot_bible-368x276.jpg');
+  object-fit: contain;
+}
+
+.imageGradient4 {
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule-368x276.jpg');
+  object-fit: contain;
+}
+
+.imageGradient5 {
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/corona-brands-368x276.jpg');
+  object-fit: contain;
+}
+
+.imageGradient6 {
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/kayleighmcenany-368x276.jpg');
+  object-fit: contain;
+}
+
+.imageGradient7 {
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg');
+  object-fit: contain;
+}
+
+.imageGradient8 {
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Facebook-Gaming-Tournaments-368x276.jpg');
+  object-fit: contain;
+}
+
+.imageText {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 0.75rem 0.75rem;
+  vertical-align: text-bottom;
+}
+
+.mostPopular {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.popularArticleImageText {
+  font-size: 1.43rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.popularArticleImageText:hover {
+  text-decoration: underline;
+}
+
+.popularAuthorName {
+  color: #6b6b6b;
+}
+
+.latestNewsDescription {
+  display: flex;
+  color: #f42;
+  font-size: 0.92rem;
+  font-weight: 400;
+  background-color: #fff4f2;
+  justify-content: space-between;
+}
+
+.fontSizeAndWeight {
+  color: #f42;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.fontSizeAndWeight:hover {
+  text-decoration: underline;
+}
+
+.smallImage {
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.addPadding {
+  padding: 0.9rem;
+}
+
+.articleLineItems {
+  margin: 0 1rem 1rem 0.5rem;
+}
+
+.lineItemStyle {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.borderBottom {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #fff;
+  display: flex;
+}
+
+.articleLineItems ul li::before {
+  content: "\2022";
+  color: #f42;
+  margin-right: 0.5rem;
+  font-weight: 700;
+}
+
+.lineItemStyle:hover {
+  color: #000;
+}
+
+.latestDeals {
+  max-width: 1280px;
+  margin: 80px auto 0 auto;
+  display: grid;
+  grid-template-columns: 100px repeat(8, 1fr) 100px;
+  grid-template-rows: 60px 300px 300px;
+  grid-gap: 2rem;
+}
+
+.sectionTitle {
+  grid-row: 1;
+  grid-column: 2/10;
+  display: flex;
+  justify-content: space-between;
+}
+
+.seeAll {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: auto 0;
+  padding: 0;
+}
+
+.latestDealArticle1 {
+  grid-row: 2;
+  grid-column: 2/4;
+}
+
+.latestDealArticle2 {
+  grid-row: 2;
+  grid-column: 4/6;
+}
+
+.latestDealArticle3 {
+  grid-row: 2;
+  grid-column: 6/8;
+}
+
+.latestDealArticle4 {
+  grid-row: 2;
+  grid-column: 8/10;
+}
+
+.latestDealArticle5 {
+  grid-row: 3;
+  grid-column: 2/4;
+}
+
+.latestDealArticle6 {
+  grid-row: 3;
+  grid-column: 4/6;
+}
+
+.latestDealArticle7 {
+  grid-row: 3;
+  grid-column: 6/8;
+}
+
+.latestDealArticle8 {
+  grid-row: 3;
+  grid-column: 8/10;
+}
+
+.latestDealImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 80px;
+  width: 80px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
+}
+
+.addRedGradient {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image:
+    linear-gradient(to bottom right, rgba(248, 42, 42, 80) 30%, rgba(0, 0, 0, 0)),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Hacker-ransomware-bitcoin-796x417.jpg");
+  position: relative;
+}
+
+.posAbsolute {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.alignCenter {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  transform: rotate(45deg);
+}
+
+.latestDealText {
+  margin: 20px 0 0 0;
+  font-size: 1.143rem;
+  font-weight: 700;
+}
+
+.latestDealText:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+main {
+  margin-bottom: 200px;
+}
+
+footer {
+  background-color: #131313;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 10px 0;
+}
+
+.socialIcon {
+  width: 30px;
+  height: 30px;
+  padding: 10px 0 0 10px;
+  margin: auto;
+}
+
+.iconBackground {
+  margin: 15px;
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+
+.iconBackground:hover {
+  background-color: #000;
+}
+
+.importantLinks {
+  justify-content: center;
+  color: #6b6b6b;
+  display: flex;
+  padding: 20px 10px;
+}
+
+.importantLinks p {
+  padding: 15px;
+}
+
+.importantLinks a:hover {
+  color: #fff;
+}
+
+.footerSecond {
+  text-align: center;
+  background-color: #000;
+  padding: 30px 0;
+}
+
+.colorWhite {
+  color: #fff;
+}
+
+.latestFundingHeader {
+  display: flex;
+  justify-content: space-between;
+  grid-row: 1;
+  grid-column: 2/10;
+}
+
+.subHeader {
+  font-size: 1rem;
+}
+
+.switch {
+  display: none;
+}
+
+.latestFundingHeader a:hover {
+  color: #000;
+}
+
+@media (max-width: 1024px) {
+  * {
+    max-width: 1024px;
+  }
+
+  .latestNews {
+    grid-template-columns: 10px repeat(6, 1fr) 10px;
+    grid-template-rows: 60px 250px 250px 250px;
+  }
+
+  .logo,
+  .company4 {
+    display: none;
+  }
+
+  .newsArticle4 {
+    grid-row: 3;
+    grid-column: 2/4;
+  }
+
+  .newsArticle5 {
+    grid-row: 3;
+    grid-column: 4/6;
+  }
+
+  .newsArticle6 {
+    grid-row: 3;
+    grid-column: 6/8;
+  }
+
+  .newsArticle7 {
+    grid-row: 4;
+    grid-column: 2/4;
+  }
+
+  .newsArticle8 {
+    grid-row: 4;
+    grid-column: 4/6;
+  }
+
+  .latestFunding {
+    grid-template-columns: 10px repeat(6, 1fr) 10px;
+    grid-template-rows: 100px 250px;
+    grid-gap: 1rem;
+  }
+
+  .latestFundingHeader {
+    display: inline-block;
+  }
+
+  span a {
+    margin: 10px 0 0 0;
+    padding: 0;
+    border: none;
+    display: block;
+  }
+
+  .latestFundingHeader div a {
+    margin: 30px 10px 20px 0;
+    border-right: #f42 solid 2px;
+    padding: 0 10px 0 0;
+  }
+
+  .popularArticles {
+    display: grid;
+    grid-template-columns: 20px repeat(6, 1fr) 20px;
+    grid-template-rows: repeat(4, 800px);
+    grid-gap: 2rem;
+  }
+
+  .latestDealArticle1,
+  .populatArticle3 {
+    grid-row: 2;
+    grid-column: 2/5;
+  }
+
+  .latestDealArticle2,
+  .populatArticle4 {
+    grid-row: 2;
+    grid-column: 5/8;
+  }
+
+  .latestDealArticle4,
+  .populatArticle5 {
+    grid-row: 3;
+    grid-column: 2/5;
+  }
+
+  .latestDealArticle5,
+  .populatArticle6 {
+    grid-row: 3;
+    grid-column: 5/8;
+  }
+
+  .latestDealArticle7,
+  .populatArticle7 {
+    grid-row: 4;
+    grid-column: 2/5;
+  }
+
+  .latestDealArticle8,
+  .populatArticle8 {
+    grid-row: 4;
+    grid-column: 5/8;
+  }
+
+  .latestDeals {
+    grid-template-columns: 20px repeat(9, 1fr) 20px;
+    grid-template-rows: 60px 350px 350px 350px;
+    grid-gap: 10px;
+  }
+
+  .latestDealArticle3 {
+    grid-row: 2;
+    grid-column: 8/11;
+  }
+
+  .latestDealArticle6 {
+    grid-row: 3;
+    grid-column: 8/11;
+  }
+
+  .addRedGradient {
+    background-image:
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.01), rgba(23, 22, 22, 1)),
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Hacker-ransomware-bitcoin-796x417.jpg");
+  }
+}
+
+@media (max-width: 768px) {
+  .logo,
+  .date,
+  .lower-nav ul,
+  .upper-nav {
+    display: none;
+  }
+
+  .adjust-flex {
+    justify-content: flex-end;
+  }
+
+  .bottom-nav {
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .addGrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 300px 300px;
+  }
+
+  .article1 {
+    grid-column: 1;
+    grid-row: 1;
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
+    padding: 0;
+  }
+
+  .bottomGrid {
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 2;
+    color: #fff;
+  }
+
+  .article2 {
+    grid-column: 1;
+    grid-row: 2;
+    border-top: 5px solid #fff;
+  }
+
+  .article3 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .latestNews {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px repeat(8, 120px);
+    grid-gap: 0;
+    margin: 20px;
+  }
+
+  .newsArticle1 {
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .newsArticle2 {
+    grid-row: 3;
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .newsArticle3 {
+    grid-row: 4;
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .newsArticle4 {
+    grid-row: 5;
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .newsArticle5 {
+    grid-row: 6;
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .newsArticle6 {
+    grid-row: 7;
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .newsArticle7 {
+    grid-row: 8;
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .newsArticle8 {
+    grid-row: 9;
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .strike {
+    text-decoration: line-through;
+  }
+
+  .latestNewsHeading {
+    grid-row: 1;
+    grid-column: 1/-1;
+  }
+
+  .article1Image {
+    width: 100px;
+    height: 100px;
+    max-width: 250px;
+    background-size: cover;
+    margin: 0 10px;
+  }
+
+  .noTextDecoration {
+    text-align: start;
+  }
+
+  .adjustMargin {
+    margin: 0;
+  }
+
+  .latestFunding {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px repeat(3, 300px);
+    grid-gap: 1rem;
+    margin: 0 5px;
+  }
+
+  .latestFundingHeader {
+    grid-row: 1;
+    grid-column: 1;
+    margin: 20px;
+  }
+
+  .latestFundingHeader div a {
+    border: none;
+  }
+
+  .company1 {
+    grid-row: 2;
+    grid-column: 1;
+    margin: 0 20px;
+  }
+
+  .company2 {
+    grid-row: 3;
+    grid-column: 1;
+    margin: 0 20px;
+  }
+
+  .company3 {
+    grid-row: 4;
+    grid-column: 1;
+    margin: 0 20px;
+  }
+
+  .redHeading {
+    font-size: 1.2rem;
+  }
+
+  .companyLogo {
+    position: absolute;
+    padding: 0.75rem;
+  }
+
+  .popularArticles {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 700px);
+    grid-gap: 1rem;
+    margin: 0 20px;
+  }
+
+  .populatArticle1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .populatArticle2 {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .populatArticle3 {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .populatArticle4 {
+    grid-row: 4;
+    grid-column: 1;
+  }
+
+  .populatArticle5 {
+    grid-row: 5;
+    grid-column: 1;
+  }
+
+  .populatArticle6 {
+    grid-row: 6;
+    grid-column: 1;
+  }
+
+  .populatArticle7 {
+    grid-row: 7;
+    grid-column: 1;
+  }
+
+  .populatArticle8 {
+    grid-row: 8;
+    grid-column: 1;
+  }
+
+  .sectionTitle {
+    grid-row: 1;
+    grid-column: 1;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+  .seeAll {
+    font-size: 1rem;
+    vertical-align: middle;
+  }
+
+  .latestDeals {
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px repeat(7, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .latestDealHeader {
+    display: inline;
+    margin: auto 0;
+  }
+
+  .latestDealArticle1 {
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+  }
+
+  .latestDealArticle2 {
+    grid-row: 3;
+    grid-column: 1;
+    display: flex;
+  }
+
+  .latestDealArticle3 {
+    grid-row: 4;
+    grid-column: 1;
+    display: flex;
+  }
+
+  .latestDealArticle4 {
+    grid-row: 5;
+    grid-column: 1;
+    display: flex;
+  }
+
+  .latestDealArticle5 {
+    grid-row: 6;
+    grid-column: 1;
+    display: flex;
+  }
+
+  .latestDealArticle6 {
+    grid-row: 7;
+    grid-column: 1;
+    display: flex;
+  }
+
+  .latestDealArticle7 {
+    grid-row: 8;
+    grid-column: 1;
+    display: flex;
+  }
+
+  .latestDealArticle8 {
+    grid-row: 9;
+    grid-column: 1;
+    display: flex;
+  }
+
+  .latestDealImage {
+    display: none;
+  }
+
+  .posAbsolute {
+    width: 120px;
+    height: 120px;
+    background: cover;
+    margin: 20px;
+  }
+
+  .switch {
+    display: none;
+  }
+
+  main {
+    margin-bottom: 40px;
+  }
+
+  .iconBackground {
+    margin: 8px;
+  }
+
+  .show {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 420px) {
+  .menu-icon {
+    display: initial;
+    border-left: 0.5px solid gray;
+  }
+
+  .footerSecond {
+    margin: auto;
+    padding: 20px;
+  }
+
+  .lowerFooter {
+    width: fit-content;
+    background-color: black;
+  }
+
+  .iconBackground {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .socialIcon {
+    width: 25px;
+    height: 25px;
+    padding: 3px 0 0 3px;
+  }
+
+  .latestDealText {
+    max-width: 220px;
+  }
+}
